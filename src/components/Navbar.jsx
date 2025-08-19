@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-[#212529] text-white">
-      <div className="container mx-auto flex items-center justify-between px-4 py-3">
+      <div className="container mx-auto flex items-center justify-between ">
 
         <div className="h-20 w-20 flex-shrink-0">
           <img src={logo} alt="logo" className="h-full w-full object-contain" />
@@ -76,7 +76,7 @@ const Navbar = () => {
 
 
       {open && (
-        <ul className="lg:hidden flex flex-col gap-4 bg-[#2a2f34] px-4 py-4">
+        <ul className="lg:hidden flex flex-col gap-4 bg-[#2a2f34] ">
           {navlink.map((res, index) => (
             <li key={index}>
               <NavLink

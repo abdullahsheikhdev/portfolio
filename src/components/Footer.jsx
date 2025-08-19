@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#212529] text-white py-8 mt-10">
+    <footer className="bg-[#212529] text-white py-8 ">
       <div className="container mx-auto px-4 text-center">
         {/* Name / Branding */}
         <h2 className="text-xl font-semibold">MD Abdullah Sheikh</h2>
