@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 const MailRouter = () => {
     return (
-        <div>
+        <div className="">
             <Navbar />
             <Outlet />
             <Footer />

@@ -2,6 +2,12 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import MailRouter from "./routes/MailRouter";
 import Home from "./pages/Home";
 import NotFound from "./components/NotFound";
+import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
+import Experience from "./pages/Experience";
+import Education from "./pages/Education";
+import Skills from "./pages/Skills";
+import About from "./pages/About";
 
 function App() {
 
@@ -11,12 +17,12 @@ function App() {
       <>
         <Route path="/" element={<MailRouter />}>
         <Route index element={<Home />} />
-        <Route path="about" element={<Home />} />
-        <Route path="skills" element={<Home />} />
-        <Route path="education" element={<Home />} />
-        <Route path="experience" element={<Home />} />
-        <Route path="projects" element={<Home />} />
-        <Route path="contact" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="skills" element={<Skills />} />
+        <Route path="education" element={<Education />} />
+        <Route path="experience" element={<Experience />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="contact" element={<Contact />} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </>
